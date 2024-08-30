@@ -1,3 +1,4 @@
+// Write a program to create a file and print the file descriptor value. Use creat ( ) system call
 #include<stdio.h>
 #include<unistd.h>
 #include<fcntl.h>
