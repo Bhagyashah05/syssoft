@@ -29,7 +29,7 @@ int main()
     printf("record %d id locked Enter to unlock it\n", id);
     getchar();
     getchar();
-    rdlock.l_type = F_ULOCK;
+    rdlock.l_type = F_UNLCK;
     fcntl(fd, F_SETLKW, &rdlock);
     printf("record is unlocked\n");
     return 0;
