@@ -1,3 +1,11 @@
+/*
+Name: 8.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 22 Aug 2024
+*/
+
+// Description:
 // Write a program to open a file in read only mode, read line by line and display each line as it is read.
 // Close the file when end of file is reached.
 
@@ -23,6 +31,10 @@ int main(){
 
     return 0;
 }
+
+// output 
+// ./a.out 
+// hellooooooooooo hiiiiiiiiiii
 
 // The fgets() reads a line from the specified stream and 
 // stores it into the string pointed to by str. It stops

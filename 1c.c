@@ -1,3 +1,11 @@
+/*
+Name: 1c.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 14th Aug 2024
+*/
+
+// Description:
 // Create the following types of a files using (i) shell command (ii) system call
 // c. FIFO (mkfifo Library Function or mknod system call)
 

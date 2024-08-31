@@ -1,3 +1,11 @@
+/*
+Name: 22.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 30 Aug 2024
+*/
+
+// Description:
 // Write a program, open a file, call fork, and then write to the file by both the child as well as the
 // parent processes. Check output of the file.
 
@@ -27,3 +35,11 @@ int main(int argc, char *argv[])
     close(fd);
     return 0;
 }
+
+// output 
+// ./a.out 22.txt 
+// bhagyashah05@Bhagya-Shah:~/syssoft$ cat 22.txt 
+// written by child 5010 
+
+
+// ritten by child 14315

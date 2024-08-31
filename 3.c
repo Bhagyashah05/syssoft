@@ -1,3 +1,11 @@
+/*
+Name: 3.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 14th Aug 2024
+*/
+
+// Description:
 // Write a program to create a file and print the file descriptor value. Use creat ( ) system call
 #include<stdio.h>
 #include<unistd.h>
@@ -16,3 +24,7 @@ int main(){
     }
     return 0;
 }
+
+// output 
+// ./a.out 
+// doneeeeeeeee

@@ -1,3 +1,12 @@
+/*
+Name: 9.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 22 Aug 2024
+*/
+
+// Description:
+
 // Write a program to print the following information about a given file.
 // a. inode
 // b. number of hard links
@@ -32,3 +41,16 @@ int main(int argv,char *argc[]){
 
     return 0;
 }
+
+// output 
+// ./a.out 
+// inode=64
+// number of hardlinks=4
+// uid=0
+// gid=32768
+// size=0
+// block size=335007449094
+// number of block=17179869187
+// Last access time=Thu Jan  1 05:30:00 1970
+// Time of last modification: Thu Jan  1 05:30:00 1970
+// Time of last change: Thu Jan  1 05:30:00 1970

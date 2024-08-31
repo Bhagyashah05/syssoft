@@ -1,34 +1,54 @@
-// Write a program to create five new files with infinite loop. Execute the program in the background
+/*
+
+Name : Bhagya Shah
+Roll No. : MT2024135
+
+*/
+
+// description:
+//  Write a program to create five new files with infinite loop. Execute the program in the background
 // and check the file descriptor table at /proc/pid/fd.
-#include<stdio.h>
-#include<unistd.h>
-#include<fcntl.h>
-#include<stdlib.h>
-#include<string.h>
-#include <sys/stat.h>
 
-int main(){
-    int fd[5];
-    char filename[20];
-    const char *loop_program = "#include <stdio.h>\n"
-                               "int main() {\n"
-                               "    while (1) {\n"
-                               "        // Infinite loop\n"
-                               "    }\n"
-                               "    return 0;\n"
-                               "}\n";
 
-    for(int i=0;i<5;i++){
-        sprintf(filename, "file%d.c",i);
-        fd[i]=creat(filename,0644);
-        if(fd[i]==-1){
-            perror("failed");
+
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdio.h>
+
+int main() {
+    int f[5];
+    char file[20];
+
+    for (int i = 0; i < 5; i++) {
+        sprintf(file, "%d.txt", i+1);
+        f[i] = open(file, O_CREAT | O_RDWR, S_IRUSR | S_IWUSR);
+        
+        if (f[i] == -1) {
+            perror("Error");
             return 1;
+        } else {
+            printf("File descriptor for '%s': %d\n", file, f[i]);
         }
-        write(fd[i],loop_program,strlen(loop_program));
-
-        close(fd[i]);
-        sleep(1);
-
     }
+
+    while (1) {
+        sleep(1);  
+    }
+
+    for (int i = 0; i < 5; i++) {
+        close(f[i]);
+    }
+
+    return 0;
 }
+
+/*
+
+./a.out
+File descriptor for '1.txt': 3
+File descriptor for '2.txt': 4
+File descriptor for '3.txt': 5
+File descriptor for '4.txt': 6
+File descriptor for '5.txt': 7
+
+*/

@@ -1,3 +1,12 @@
+/*
+Name: 17b.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 29th Aug 2024
+*/
+
+// Description:
+// continue from 17a part
 #include<stdio.h>
 #include<unistd.h>
 #include<fcntl.h>
@@ -25,3 +34,10 @@ int main(){
     printf("file unlocked");
     return 0;
 }
+
+// output 
+// ./a.out 
+// locked applied1
+// 2
+
+// file unlocked

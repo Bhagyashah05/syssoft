@@ -1,3 +1,12 @@
+/*
+Name: 18c.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 29th Aug 2024
+*/
+
+// Description:
+// continue from 18b 
 #include <stdio.h>
 #include <fcntl.h>
 #include <sys/stat.h>
@@ -50,3 +59,10 @@ int main()
     printf("record is unlocked\n");
     return 0;
 }
+
+// output 
+//  ./a.out 
+// Enter record id:2
+// record 2 id locked
+// Enter new ticket no 2
+// record is unlocked

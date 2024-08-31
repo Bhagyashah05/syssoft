@@ -1,3 +1,12 @@
+/*
+Name: 13.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 23 Aug 2024
+*/
+
+// Description:
+
 // Write a program to wait for a STDIN for 10 seconds using select. Write a proper print statement to
 // verify whether the data is available within 10 seconds or not (check in $man 2 select).
 
@@ -25,5 +34,9 @@ int main(){
     return 0;
 }
 
+// output 
+//  ./a.out 
+// qwerty
+// entered
 // timeval is used to represent time with seconds and microseconds
 // fd_set is set of file discriptior

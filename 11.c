@@ -1,3 +1,11 @@
+/*
+Name: 11.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 23 Aug 2024
+*/
+
+// Description:
 
 // Write a program to open a file, duplicate the file descriptor and append the file with both the
 // descriptors and check whether the file is updated properly or not.
@@ -34,6 +42,23 @@ int main(){
 
     return 0;
 }
+
+// output 
+// hello again from dup fcntl ./a.out 
+// bhagyashah05@Bhagya-Shah:~/syssoft$ cat 11.txt 
+// hello from old fd 
+// hello again from dupli 
+// Hello from old fd 
+// hello again from dupli 
+// hello again from dupli 2
+// Hello from old fd 
+// hello again from dupli 
+// hello again from dupli 2
+// hello again from dup fcntl 
+// Hello from old fd 
+// hello again from dupli 
+// hello again from dupli 2
+// hello again from dup fcntl
 
 // the main difference between dup and dup2 is that dup2 takes specific fd from 
 // user while dup assign next smallest used fd 

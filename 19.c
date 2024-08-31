@@ -1,3 +1,11 @@
+/*
+Name: 19.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 30th Aug 2024
+*/
+
+// Description:
 // Write a program to find out time taken to execute getpid system call. Use time stamp counter.
 
 #include<stdio.h>
@@ -16,3 +24,8 @@ int main(){
     printf("time taken : %llu\n",end-start);
     return 0;
 }
+
+// output 
+// ./a.out 
+// process id: 4480
+// time taken : 1033908

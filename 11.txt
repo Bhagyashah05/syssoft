@@ -7,3 +7,7 @@ Hello from old fd
 hello again from dupli 
 hello again from dupli 2
 hello again from dup fcntl 
+Hello from old fd 
+hello again from dupli 
+hello again from dupli 2
+hello again from dup fcntl 

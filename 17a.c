@@ -1,3 +1,11 @@
+/*
+Name: 17a.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 29th Aug 2024
+*/
+
+// Description:
 // Write a program to simulate online ticket reservation. Implement write lock
 // Write a program to open a file, store a ticket number and exit. Write a separate program, to
 // open the file, implement write lock, read the ticket number, increment the number and print
@@ -22,3 +30,8 @@ int main(){
 
     return 0;
 }
+// output 
+// ./a.out 
+// Enter ticket number:
+// 1
+// ticket number store

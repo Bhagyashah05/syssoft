@@ -1,3 +1,12 @@
+/*
+Name: 14.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 24 Aug 2024
+*/
+
+// Description:
+
 // Write a program to find the type of a file.
 // a. Input should be taken from command line.
 // b. program should be able to identify any type of a file.
@@ -43,4 +52,7 @@ int main(int argv,char *argc[]){
     return 0;
 }
 
+// output 
+// ./a.out linkfile.txt
+// Regular file
 // we can use stat instead of lstat but it doesnt handle sym link effectively

@@ -1,3 +1,11 @@
+/*
+Name: 4.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 14th Aug 2024
+*/
+
+// Description:
 // Write a program to open an existing file with read write mode. Try O_EXCL flag also.
 #include<errno.h>
 #include<fcntl.h>
@@ -18,3 +26,7 @@ int main(){
 	}
 	return 0;
 }
+
+// output 
+// ./a.out 
+// fd= 3

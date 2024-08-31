@@ -1,3 +1,11 @@
+/*
+Name: 12.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 23 Aug 2024
+*/
+
+// Description:
 // Write a program to find out the opening mode of a file. Use fcntl.
 
 #include<stdio.h>
@@ -16,6 +24,8 @@ int main(){
 printf("%d",mode);
     return 0;
 }
-
+// output 
+// ./a.out 
+// w32769
 
 // F_GETFL return the mode of file

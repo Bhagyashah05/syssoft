@@ -1,3 +1,11 @@
+/*
+Name: 20.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 30 Aug 2024
+*/
+
+// Description:
 // Find out the priority of your running program. Modify the priority with nice command.
 #include<stdio.h>
 #include<unistd.h>
@@ -19,3 +27,8 @@ int main(){
 
     return 0;
 }
+
+// output 
+// ./a.out 
+// priority of process is 0
+// new priority of process is 10

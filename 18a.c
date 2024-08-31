@@ -1,3 +1,12 @@
+/*
+Name: 18a.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 29th Aug 2024
+*/
+
+// Description:
+
 // . Write a program to perform Record locking.
 // a. Implement write lock
 // b. Implement read lock
@@ -34,3 +43,8 @@ int main(){
     return 0;
 
 }
+
+// output 
+//  ./a.out 
+// bhagyashah05@Bhagya-Shah:~/syssoft$ cat 18record.txt 
+// id=1ticket_no=1

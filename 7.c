@@ -1,4 +1,13 @@
+/*
+Name: 7.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 18th Aug 2024
+*/
+
+// Description:
 // Write a program to copy file1 into file2 ($cp file1 file2).
+
 #include<stdio.h>
 #include<unistd.h>
 #include<fcntl.h>
@@ -28,3 +37,7 @@ int main(){
     return 0;
 
 }
+
+// output 
+// ./a.out 
+// donee

@@ -1,3 +1,12 @@
+/*
+Name: 6.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 18th Aug 2024
+*/
+
+// Description:
+
 // Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
 #include<stdio.h>
 #include<stdlib.h>
@@ -28,3 +37,8 @@ int main(){
     }
     return 0;
 }
+
+// output 
+// ./a.out 
+// bhagya
+// bhagya

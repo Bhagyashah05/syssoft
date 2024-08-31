@@ -1,3 +1,11 @@
+/*
+Name: 10.c
+Author: Bhagya Shah
+Roll no:MT2024135
+Date: 23 Aug 2024
+*/
+
+// Description:
 // Write a program to open a file with read write mode, write 10 bytes, move the file pointer by 10
 // bytes (use lseek) and write again 10 bytes.
 // a. check the return value of lseek
@@ -26,3 +34,8 @@ int main(int argv, char *argc[])
 	printf("%d\n", i);
 	return 0;
 }
+
+// output 
+// ./a.out linkfile.txt
+// 20
+// 30
