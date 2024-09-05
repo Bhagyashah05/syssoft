@@ -8,12 +8,7 @@ Date: 30 Aug 2024
 // Description:
 // Write a program to run a script at a specific time using a Daemon process.
 
-// Pipariya Darshitkumar
-// MT2022035
 
-/*
-    Write a program to run a script at a specific time using a Daemon process.
-*/
 
 #include <stdio.h>
 #include <stdlib.h>
