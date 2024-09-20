@@ -31,3 +31,6 @@ void main()
         raise(SIGINT);
     }
 }
+// output 
+//  ./a.out 
+// Caught SIGINT

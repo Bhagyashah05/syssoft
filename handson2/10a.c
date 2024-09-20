@@ -30,3 +30,7 @@ void main()
         raise(SIGSEGV);
     }
 }
+
+// output 
+// ./a.out 
+// Caught SIGSEGV
