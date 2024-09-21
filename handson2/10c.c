@@ -1,11 +1,11 @@
 // Bhagya Shah 
 // MT2024135
-/*
-Write a separate program using sigaction system call to catch the following signals.
-a. SIGSEGV
-b. SIGINT
-c. SIGFPE
-*/
+
+// Write a separate program using sigaction system call to catch the following signals.
+// a. SIGSEGV
+// b. SIGINT
+// c. SIGFPE
+
 #include <stdio.h>
 #include <unistd.h>
 #include <signal.h>

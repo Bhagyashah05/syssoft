@@ -33,3 +33,6 @@ int main() {
     
     return 0;
 }
+
+// ./a.out 
+// Sender: Wrote message to FIFO

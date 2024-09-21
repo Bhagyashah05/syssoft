@@ -65,3 +65,7 @@ int main() {
     unlink(FIFO_PATH); 
     return 0;
 }
+
+// ./a.out 
+// Waiting for data in FIFO with a 10-second timeout...
+// Data received from FIFO: Hello from FIFO

@@ -10,7 +10,6 @@
 #include <sys/msg.h>
 #include <stdlib.h>
 
-// Structure for message queue
 struct message_buffer {
     long message_type;
     char message_text[100];

@@ -52,19 +52,19 @@ int main() {
             close(pipe_ls_grep[0]);  
 
             close(pipe_grep_wc[0]); 
-            dup2(pipe_grep_wc[1], STDOUT_FILENO); // Redirect stdout to write end of second pipe
-            close(pipe_grep_wc[1]);  // Close original write end of second pipe
+            dup2(pipe_grep_wc[1], STDOUT_FILENO);
+            close(pipe_grep_wc[1]);  
 
             execlp("grep", "grep", "^d", NULL);
             perror("execlp failed for grep");
             exit(EXIT_FAILURE);
         } else {
-            close(pipe_ls_grep[0]);  // Close unused pipe ends
+            close(pipe_ls_grep[0]);  
             close(pipe_ls_grep[1]);
 
-            close(pipe_grep_wc[1]);  // Close write end of second pipe
-            dup2(pipe_grep_wc[0], STDIN_FILENO);  // Redirect stdin to read end of second pipe
-            close(pipe_grep_wc[0]);  // Close original read end of second pipe
+            close(pipe_grep_wc[1]);  
+            dup2(pipe_grep_wc[0], STDIN_FILENO);  
+            close(pipe_grep_wc[0]); 
 
             execlp("wc", "wc", "-l", NULL);
             perror("execlp failed for wc");

@@ -29,4 +29,6 @@ int main() {
     
     return 0;
 }
+// ./a.out 
+// Receiver: Read message from FIFO: Hello fr
 

@@ -1,9 +1,9 @@
 // Bhagya Shah 
 // MT2024135
 
-/*
-Write a program to create a message queue and print the key and message queue id.
-*/
+
+// Write a program to create a message queue and print the key and message queue id.
+
 #include <stdio.h>
 #include <sys/ipc.h>
 #include <sys/msg.h>
